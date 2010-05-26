@@ -1,0 +1,97 @@
+@import "base.css";
+
+
+#contact {
+    float: right;
+}
+
+.email {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.callout {
+    background: transparent;
+    border-top: 1px solid #ddd;    
+    padding: 1.5em 1.5em 0 1.5em;
+    margin-bottom: 1.5em
+}
+
+h4 {
+    line-height: 1.5em;
+    margin-bottom: 0;
+}
+
+ol {
+    padding: 0;
+}
+
+.experience > li {
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+
+ul.menu li img {
+    vertical-align: top;
+    margin-top: 2px;
+}
+
+.location {
+    color: #333;
+    font-style: italic;
+}
+
+.audio-info {
+    color: #333 !important;
+    margin: .5em;
+}
+
+.audio-info .title {
+    font-weight: bold;
+}
+
+.audio-info .note {
+    color: #999 !important;
+}
+
+audio {
+    display: block;
+    margin: 20px auto;
+}
+
+@media screen {
+    header {
+        margin-top: 4em;
+    }
+
+    .wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        width: 640px;
+    }
+
+    footer .wrapper {
+        padding-left: 40px;
+        width: 800px;
+    }
+
+    footer {
+        border-top: 1px solid #ddd;
+        padding: 2em 0 1em 0;
+    }
+}
+
+@media print {
+    #objective {
+        border-color: #333;
+    }
+}
+
+@media handheld, only screen and (max-device-width: 480px) {
+    #contact {
+        clear: both;
+        float: none !important;
+        font-size: 1.5em;
+        margin-bottom: 1em;
+    }
+}

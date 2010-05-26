@@ -1,0 +1,11 @@
+AddType text/cache-manifest .manifest
+DirectoryIndex portfolio.html
+
+SetOutputFilter DEFLATE
+
+ExpiresActive On
+ExpiresDefault "access plus 1 day"
+ExpiresByType image/png "access plus 1 month"
+ExpiresByType text/css "access plus 1 month"
+
+FileETag none

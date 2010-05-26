@@ -1,0 +1,9 @@
+@import "base.css";
+
+header {
+    margin-top: 4em;
+}
+
+.wrapper {
+    width: 480px;
+}
