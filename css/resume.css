@@ -1,6 +1,5 @@
 @import "base.css";
 
-
 #contact {
     float: right;
 }
@@ -24,6 +23,36 @@ h4 {
 
 ol {
     padding: 0;
+}
+
+h1, h2 {
+	font-weight: bold;
+}
+
+nav.page {
+	float: right;
+	width: auto;
+}
+
+.primary {
+	float: left;
+	width: 60%;
+}
+
+.secondary {
+	float: right;
+	font-size: 80%;
+	line-height: 1.75em;
+	width: 35%;
+}
+
+.secondary h2 {
+	font-size: 1.5em;
+}
+
+.secondary li {
+	line-height: 2em;
+	margin-top: .5em;
 }
 
 .experience > li {
@@ -61,23 +90,20 @@ audio {
 
 @media screen {
     header {
+		border-bottom: 5px solid #111;
         margin-top: 4em;
     }
 
     .wrapper {
         margin-left: auto;
         margin-right: auto;
-        width: 640px;
+        width: 960px;
+		overflow: hidden;
+		height: 100%;
     }
 
     footer .wrapper {
         padding-left: 40px;
-        width: 800px;
-    }
-
-    footer {
-        border-top: 1px solid #ddd;
-        padding: 2em 0 1em 0;
     }
 }
 
