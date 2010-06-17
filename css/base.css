@@ -77,10 +77,6 @@ a {
     -webkit-transition-duration: .5s;
 }
 
-a:hover, a:visited:hover {
-    color: #111;
-}
-
 a:visited {
     color: #666;
 }
@@ -179,6 +175,14 @@ p + p {
         display: inline-block;
         padding-left: 2em;
     }
+
+	a:hover, a:visited:hover {
+	    color: #111;
+	}
+
+	.main .menu a:hover, .main .menu a:visited:hover {
+		color: #eee;
+	}
 
 	.page .menu {
 		padding: 0;
