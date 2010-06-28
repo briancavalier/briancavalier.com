@@ -55,8 +55,7 @@ ul.menu li img {
 }
 
 .audio-info {
-    color: #333 !important;
-    margin: .5em;
+    color: #eee !important;
 }
 
 .audio-info .title {
@@ -64,12 +63,29 @@ ul.menu li img {
 }
 
 .audio-info .note {
-    color: #999 !important;
+    color: #ccc !important;
 }
 
 audio {
     display: block;
-    margin: 20px auto;
+    margin: 1em auto;
+	width: 100%;
+}
+
+#player1 {
+	padding: 1em 1.5em;
+	width: 25em;
+	bottom: 2em;
+	right: 0;
+}
+
+#player1 .hold {
+	display: block;
+	left: 0;
+	bottom: -2em;
+	position: absolute;
+	width: 100%;
+	height: 2em;
 }
 
 @media screen {
