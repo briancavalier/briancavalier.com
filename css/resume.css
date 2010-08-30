@@ -132,6 +132,9 @@ audio {
 }
 
 @media print {
+	body {
+		font-size: 10px;
+	}
 	header {
 		border-bottom: none;
 	}
