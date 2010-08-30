@@ -34,13 +34,12 @@ ol {
     padding: 0;
 }
 
-h1, h2 {
-	font-weight: bold;
+nav.page {
+	width: auto;
 }
 
-nav.page {
-	float: right;
-	width: auto;
+.page .menu {
+	margin: auto;
 }
 
 header {
