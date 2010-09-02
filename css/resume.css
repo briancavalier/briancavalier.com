@@ -1,19 +1,11 @@
 @import "base.css";
 
-.contact {
-    float: left;
-	margin-bottom: .25em;
-}
-
-.contact span {
+.contact .details {
 	color: #666;
-	border-left: 1px solid #aaa;
-	padding-left: .5em;
 }
 
-.contact span:first-child {
-	border-left: none;
-	padding-left: 0;
+.contact .tel:after {
+	content: " \2014 ";
 }
 
 .email {
