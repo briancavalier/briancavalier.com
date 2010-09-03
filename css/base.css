@@ -99,8 +99,9 @@ nav .logo {
 
 a {
 	color: rgb(85, 160, 200);
-    -webkit-transition-property: color;
-    -webkit-transition-duration: .5s;
+	transition:         all 250ms ease;
+	-webkit-transition: all 250ms ease;
+	-moz-transition:    all 250ms ease;
 }
 
 a:visited {
@@ -312,7 +313,7 @@ p + p {
     }
 
 	a:hover, a:visited:hover {
-	    color: #111;
+	    text-shadow:         0 0 10px rgba(85, 160, 200, .8);
 	}
 
 	.main .menu a {

@@ -47,9 +47,12 @@ blockquote {
 	box-shadow: 0 2px 8px #111;
 }
 
+#showcase a:focus, #showcase a:hover {
+	color: rgb(85, 160, 200);
+}
+
 #showcase h3 {
 	letter-spacing: .05em;
-/*	color: #fff;*/
 	color: rgb(85, 160, 200) !important;
 }
 
